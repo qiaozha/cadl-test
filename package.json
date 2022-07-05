@@ -1,0 +1,13 @@
+{
+  "name": "cadl-test",
+  "cadlMain": "petstore.cadl",
+  "type": "module",
+  "dependencies": {
+    "@azure-tools/cadl-autorest": "^0.17.0",
+    "@azure-tools/cadl-typescript": "file:../cadl-typescript-experiment",
+    "@cadl-lang/compiler": "/Users/zhangqiaoqiao/work/code/cadl-typescript-experiment/node_modules/@cadl-lang/compiler",
+    "@cadl-lang/openapi": "latest",
+    "@cadl-lang/rest": "latest"
+  },
+  "private": true
+}
